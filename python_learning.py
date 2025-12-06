@@ -16,8 +16,8 @@ def divide(a, b):
     return a / b
 
 
-a = 10
-b = 23
+a = 15
+b = 59
 print(add(a, b))
 print(subtract(a, b))
 print(divide(a, b))

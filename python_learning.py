@@ -1,13 +1,13 @@
-def add(a, b, c):
-    return a + b + c
+def add(a, b, c, d):
+    return a + b + c +d
 
 
-def subtract(a, b, c):
-    return a - b - c
+def subtract(a, b, c, d):
+    return a - b - c - d
 
 
-def multiply(a, b, c):
-    return a * b * c
+def multiply(a, b, c, d):
+    return a * b * c * d
 
 
 def divide(a, b):
@@ -19,6 +19,7 @@ def divide(a, b):
 a = 15
 b = 59
 c = 10
+d = 22
 print(add(a, b))
 print(subtract(a, b))
 print(divide(a, b))
